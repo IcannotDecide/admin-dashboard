@@ -1,0 +1,26 @@
+:root {
+  --test: black;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-rows: 100px repeat(5, 50px) 100px repeat(3, 50px);
+  background-color: lightblue;
+  justify-items: center;
+}
+
+.content {
+  display: grid;
+  background-color: lightgray;
+}
