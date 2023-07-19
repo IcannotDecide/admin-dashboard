@@ -80,7 +80,15 @@ textarea {
 }
 
 img {
+  border-radius: 100%;
+}
+
+.header-top img {
   width: 30px;
+}
+
+.header-bot img {
+  width: 50px;
 }
 
 .pfp-name {
@@ -111,7 +119,7 @@ button:active {
 }
 
 .header-top, .header-bot {
-  gap: 10px;
+  gap: 20px;
 }
 
 .header, .body {
