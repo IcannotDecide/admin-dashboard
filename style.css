@@ -57,6 +57,8 @@
   background-color: var(--white);
   display: grid;
   grid-template-rows: 1fr 2fr;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .5);
+  z-index: 0;
 }
 
 .header-top {
@@ -131,6 +133,12 @@ button:active {
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 50px 1fr;
   background-color: var(--body-background);
+  column-gap: 20px;
+}
+
+.title {
+  font-size: 20px;
+  
 }
 
 .cards {
