@@ -3,6 +3,7 @@
   --white: #eff6ff;
   --grey: #c5cbd3;
   --body-background: lightgray;
+  --card: linear-gradient(to right, orange 2%, var(--white) 0%);
 }
 
 *{
@@ -153,8 +154,24 @@ button:active {
 
 .card {
   min-height: 100px;
-  background-color: var(--white);
-  padding: 20px;
+  padding: 20px; 
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card svg {
+  height: 25px;
+  cursor: pointer;
+}
+
+.svg-flex {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 20px;
 }
 
 .card, .announcements, .trending {
