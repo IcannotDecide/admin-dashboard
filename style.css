@@ -206,6 +206,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: repeat(4, 1fr);
+  column-gap: 20px;
 }
 
 .line {
@@ -216,4 +217,8 @@ hr {
 .trending > div {
   display: grid;
   align-content: center;
+}
+
+.trending img {
+  width: 50px;
 }
