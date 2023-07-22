@@ -159,7 +159,6 @@ button:active {
   background: var(--card);
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .card svg {
