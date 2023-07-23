@@ -26,6 +26,7 @@
   background-color: var(--sidebar-buttons);
   padding: 30px;
   color: var(--white);
+  z-index: 1;
 }
 
 .sidebar > div {
